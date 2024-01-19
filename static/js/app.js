@@ -42,9 +42,7 @@ function charts(sample_values, otu_ids, otu_labels) {
     y: otu_ids.slice(0, 10).map(id => `OTU ${id}`).reverse(),
     text: otu_labels,
     orientation: 'h',
-    // marker: {
-    //   color: otu_ids,
-    // }
+  
     
   }];
   
